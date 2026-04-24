@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./variables.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+
+  <main class="card">
+
+    <picture>
+      <source srcset="images/drawers.jpg" media="(min-width:730px)">
+      <img src="images/drawers.jpg" alt="Green drawers" class="image-drawers">
+    </picture>
+
+    <div class="card-text">
+      <h2 class="text-present-1">
+        Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home
+      </h2>
+      <p class="text-present-2-medium">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      </p>
+
+      <div class="card-footer">
+        <div class="footer-left">
+          <img class="image-michelle" src="./images/avatar-michelle.jpg" alt="Foto profile Michelle Appleton">
+
+          <div class="footer-text">
+            <h3 class="text-present-2-bold">Michelle Appleton</h3>
+            <p class="text-present-3">28 Jun 2020</p>
+          </div>
+        </div>
+        
+        <button class="share-btn">
+          <img class="icon-share" src="./images/icon-share.svg" alt="Icona share">
+        </button>
+
+        <div class="shared hide">
+          <span>SHARE</span>
+          <img src="./images/icon-facebook.svg" alt="Facebook icon">
+          <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          <img src="./images/icon-pinterest.svg" alt="Pinterest icon">
+        </div>
+      </div>
+
+    </div>
+    
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://mauro.digital/">mauro.digital</a>.
+  </footer>
+
+</body>
+</html>
+
