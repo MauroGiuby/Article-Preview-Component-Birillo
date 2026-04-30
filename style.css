@@ -1,3 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Impedisce l'ingrandimento automatico del testo sui dispositivi mobili */
+html {
+  -moz-text-size-adjust: none;       /* Disattiva l'adattamento del testo su Firefox */
+  -webkit-text-size-adjust: none;    /* Disattiva l'adattamento del testo su Chrome/Safari */
+  text-size-adjust: none;            /* Standard moderno per disattivare l'adattamento su browser compatibili */
+  box-sizing: border-box;            /* Include padding e border nel calcolo di width/height: semplifica layout e prevenzione overflow */
+  scroll-behavior: smooth;           /* IT: Scroll fluido — EN: Smooth scrolling */
+}
+
 /* ==========================================================
    BASE LAYOUT E TIPOGRAFIA
    ========================================================== */
