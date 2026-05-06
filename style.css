@@ -406,10 +406,6 @@ picture {
   .footer--share-open .footer-left { 
     display: none; 
   } 
-  
-  .footer--share-open .share-btn { 
-    display: none; 
-  }
 
   /* 
     Popover su mobile
