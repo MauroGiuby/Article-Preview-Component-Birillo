@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-
 :root {
   /* TextPresent 1 (Bold) */
   --tp1-font-family: "Manrope", sans-serif;
@@ -36,9 +35,8 @@
   --tp3-line-height: 140%;
   --tp3-letter-spacing: 0.25px;
 
-
   /* --- COLOR PALETTE --- */
-
+  
   /* Neutrals */
   --white: hsl(0, 100%, 100%);
 
